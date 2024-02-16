@@ -4,11 +4,50 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(45deg, #8f8e8a, #a82d94 48%, #4488c0);
+  color: white;
+  background-image: linear-gradient(45deg, #8f8e8a, #b40a98 48%, #4488c0);
 }
 .auth-form-container, .login-form, .register-form{
   display: flex;
   flex-direction: column;
-  align-items: center;
+ 
 }
 
+@media screen and (min-width 600px) {
+  
+}
+.auth-form-container{
+  padding: 3rem;
+  border: 1px solid white;
+  border-radius: 10px; 
+  margin: 2rem;
+}
+
+label {
+  text-align:left;
+  padding: 0.25rem 0;
+  text-transform: capitalize;
+}
+
+input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+  border: none;
+  background-color: #f3ecec;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #d807b5;
+}
+
+.link-btn {
+
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
